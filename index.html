@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Linking Karla Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" 
+        rel="stylesheet">
+
+        <!--Linking DM Serif Display Google Font-->
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" 
+        rel="stylesheet">
+
+        <!--Linking bootstrap CDN online version of bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+       <link rel="stylesheet" href="/css/style.css">
+
+        <!--Linking CSS-->
+        <link rel="stylesheet" href="index.css">
+
+        <!--Linking Bootsprat CDN-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <!--Linking title of website-->
+        <title>Frontend Mentor | Insure landing page</title>
+
+    </head>
+
+      <body>
+        <div class="container">
+          <nav class="position-relative navbar navbar-expand-sm navbar-light bg-light mx-3 mb-0 mb-md-3">
+            <img src="./images/logo.svg" alt="Insure logo" width="50" height="40" 
+              class="navbar-brand">
+              <button 
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileDevice"
+                aria-controls="toggleMobileDevice"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+
+              </button>
+
+              <div class="change collapse navbar-collapse "id="toggleMobileDevice">
+                <ul class="navbar-nav ms-auto text-center">
+                  <li>
+                    <a href="#" class="nav-link">HOW WE WORK</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">BLOG</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">ACCOUNT</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">VIEW PLANS</a>
+                  </li>
+                </ul>
+
+                <img src="./images/bg-pattern-mobile-nav.svg" alt=""
+                class="above-mobile img-fluid w-full position-absolute">
+
+              </div>
+          </nav>
+        </div>
+
+
+        <!--Showcasing-->
+        <section class="showcase mx-5">
+            <div>
+                <img src="./images/image-intro-mobile.jpg" alt="" 
+                class="w-full" style="width: 100%;">
+            </div>
+
+            <div class="position-relative showcase-inner py-5 px-5">
+                <img src="./images/bg-pattern-intro-left-mobile.svg" alt=""
+                    class="position-absolute top-0 start-0">
+
+                <h1 class="text-black text-5xl text-center">
+                    Humanizing your insurance
+                </h1>
+
+                <p class="text-black text-center mt-5 mb-10">
+                  Get your life insurance coverage and faster.We blend our expertise
+                  and technoogy to help you find the plan that's right for you.Ensure you
+                  and your loved ones are protected
+                </p>
+
+                <div class="text-center">
+                    <button class="border button-showcase border-2 border-white py-2 
+                        px-3 uppercase text-black mx-auto">
+                        VIEW PLANS
+                    </button>
+                </div>
+
+                <img src="./images/bg-pattern-intro-right-mobile.svg" alt=""
+                class="position-absolute end-0 -bottom-40">
+                
+            </div>
+        </section>
+
+        <!--Showcasing two-->
+        <section class="main-padding">
+            <div class="bg-secondary-500 h-1 w-50 mx-5"><hr></div>
+            <div class="container p-5 mb-5">
+                <div class="text text-bg-dark mb-0 mb-sm-5 px-2 px-sm-0">
+                    <h1 class="text fw-bold text-3xl">
+                        We're different
+                    </h1>
+                </div>
+    
+                <div class="row">
+                    <div class="col-md-4 p-3 p-sm-0">
+                        <img src="./images/icon-snappy-process.svg" alt="Snappy Process" 
+                        class="img-fluid w-10 mb-3 mb-sm-3 px-5 px-sm-0">
+    
+                        <h3 class="lead fw-bold px-3 px-sm-0">
+                            Snappy Process
+                        </h3>
+    
+                        <p>
+                            Our application process can be completed in minutes, not hours. Don't get stuck
+                            filling in tedoious forms.
+                        </p>
+    
+                    </div>
+    
+                    <div class="col-md-4 p-3 p-sm-0">
+                        <img src="./images/icon-affordable-prices.svg" alt="Snappy Process" 
+                        class="img-fluid w-10 mb-3 mb-sm-3 px-5 px-sm-0">
+    
+                        <h3 class="lead fw-bold px-3 px-sm-0">
+                            Affordable Prices
+                        </h3>
+    
+                        <p>
+                            We don't want you worrying about high monthly cost. Our prices may be low,
+                            but we still ofter best coverage possible.
+                        </p>
+    
+                    </div>
+    
+                    <div class="col-md-4 p-3 p-sm-0">
+                        <img src="./images/icon-people-first.svg" alt="Snappy Process" 
+                        class="img-fluid w-10 mb-3 mb-sm-3 px-5 px-sm-0">
+    
+                        <h3 class="lead fw-bold px-3 px-sm-0">
+                            People First
+                        </h3>
+    
+                        <p>
+                            Our plans aren't full of conditions and clauses to prevents payouts. We make
+                            sure you're covered when you need it.
+                        </p>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+
+        </section>
+
+<!--More about section -->
+<section class="showcase-inner mx-3">
+    <div class="position-relative">
+        <h3 class="fw-bold text-3xl p-5 mt-5 mt-sm-0 text-light">
+            Find out more about how we work
+        </h3>
+
+        <div class="right-padding text-center py-0 py-sm-5">
+            <button class="bottom-padding border button-showcase border-2 border-white py-2 
+                px-3 mb-5 uppercase text-black mx-auto">
+                HOW WE WORK
+            </button>
+        </div>
+
+        <img src="./images/bg-pattern-how-we-work-mobile.svg" alt=""
+            class="position-absolute top-0 end-0">
+
+    </div>  
+</section>
+
+
+<!--Footer-->
+<div class="footer container mt-5 bg-light">
+    <div class="image-footer mb-5">
+        <img src="./images/bg-pattern-footer-desktop.svg" alt="Intr0-left-footer"
+        class="img-fluid" style="height: 35vh;">
+
+        <div class="inside-image row px-5">
+
+            <div class="col-md-6 mt-2">
+                <img src="./images/logo.svg" alt="Insure footer" 
+                class="img-fluid mb-5">
+            </div>
+
+            <div class="col-md-6 text-left text-sm-right px-sm-5 pb-3 pb-sm-0 mt-sm-0">
+                <a href="https://www.twitter.com" class="btn btn-secondary">
+                    <i class="bi bi-facebook"></i></a>   
+    
+                    <a href="https://www.twitter.com" class="btn btn-secondary">
+                        <i class="bi bi-twitter"></i></a>   
+    
+                        <a href="https://www.twitter.com" class="btn btn-secondary">
+                            <i class="bi bi-github"></i></a>   
+    
+                            <a href="https://www.twitter.com" class="btn btn-secondary">
+                                <i class="bi bi-instagram"></i></a>   
+            </div>
+    
+            <div class="mb-3 w-20">
+                <hr>
+            </div>
+    
+            <div class="row-links py-5">
+                <div class="row fw-bold ">
+                    <div class="col-md-3">
+                        <div class="text text-secondary">
+                            <p>
+                                OUR COMPANY
+                            </p>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                HOW WE WORK
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                WHY INSURE?
+                            </a>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                VIEW PLANS
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                REVIEWS
+                            </a>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-md-3">
+                        <div class="text text-secondary">
+                            <p>
+                                HELP ME
+                            </p>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                FAQ
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                TERMS OF USE
+                            </a>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                PRIVACY POLICY
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                COOKIES
+                            </a>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-md-3">
+                        <div class="text text-secondary">
+                            <p>
+                                CONTACT
+                            </p>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                SALES
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                SUPPORT
+                            </a>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                LIVE CHAT
+                            </a>
+                        </div>
+    
+                        <div class="navigations PY-2">
+                            <a href="#" class="text text-dark">
+                              ~  
+                            </a>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-md-3">
+                        <div class="text text-secondary">
+                            <p>
+                                OTHERS
+                            </p>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                CAREERS
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                PRESS
+                            </a>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                LICENSES
+                            </a>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+            <!--
+            
+            <div class="col-md-6 mt-2">
+                <img src="./images/logo.svg" alt="Insure footer" 
+                class="img-fluid mb-5">
+            </div>
+
+            <div class="col-md-6 text-left text-sm-right px-sm-5 pb-5 pb-sm-0 mt-sm-0">
+                <a href="https://www.twitter.com" class="btn btn-secondary">
+                    <i class="bi bi-facebook"></i></a>   
+    
+                    <a href="https://www.twitter.com" class="btn btn-secondary">
+                        <i class="bi bi-twitter"></i></a>   
+    
+                        <a href="https://www.twitter.com" class="btn btn-secondary">
+                            <i class="bi bi-github"></i></a>   
+    
+                            <a href="https://www.twitter.com" class="btn btn-secondary">
+                                <i class="bi bi-instagram"></i></a>   
+            </div>
+    
+            <div class="mb-3 w-20">
+                <hr>
+            </div>
+    
+            <div class="row-links py-5">
+                <div class="row fw-bold ">
+                    <div class="col-md-3">
+                        <div class="text text-secondary">
+                            <p>
+                                OUR COMPANY
+                            </p>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                HOW WE WORK
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                WHY INSURE?
+                            </a>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                VIEW PLANS
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                REVIEWS
+                            </a>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-md-3">
+                        <div class="text text-secondary">
+                            <p>
+                                HELP ME
+                            </p>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                FAQ
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                TERMS OF USE
+                            </a>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                PRIVACY POLICY
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                COOKIES
+                            </a>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-md-3">
+                        <div class="text text-secondary">
+                            <p>
+                                CONTACT
+                            </p>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                SALES
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                SUPPORT
+                            </a>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                LIVE CHAT
+                            </a>
+                        </div>
+    
+                        <div class="navigations PY-2">
+                            <a href="#" class="text text-dark">
+                              ~  
+                            </a>
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-md-3">
+                        <div class="text text-secondary">
+                            <p>
+                                OTHERS
+                            </p>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                CAREERS
+                            </a>
+                        </div>
+    
+                        <div class="navigations py-2">
+                            <a href="#" class="text text-dark">
+                                PRESS
+                            </a>
+                        </div>
+    
+                        <div class="navigations">
+                            <a href="#" class="text text-dark">
+                                LICENSES
+                            </a>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+            -->
+    
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+      </script>
+    </body>
+
+</html>
